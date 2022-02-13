@@ -1,0 +1,76 @@
+.contato-main {
+    display: flex;
+    gap: 32px;
+    padding: 0 36px;
+    margin-top: 100px;
+}
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.form-wrapper h1 {
+    width: 585px;
+    height: 55px;
+    font-size: 39px;
+    font-weight: 600;
+    margin-bottom: 36px;
+    color: #575757;
+}
+.contato-form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #9B9B9B;
+}
+.contato-form input{
+    background: #FFFFFF;
+    border: 1px solid #9B9B9B;
+}
+.contato-form .departamento {
+    background: #FFFFFF;
+    border: 1px solid #9B9B9B;
+}
+.textoarea {
+    background: #FFFFFF;
+border: 1px solid #9B9B9B;
+box-sizing: border-box;
+}
+.curriculo {
+    margin-right: 40px;
+}
+.contato-form .botao {
+    display: flex;
+}
+.contato-form .botao .upload{
+    display: flex;
+    width: 118px;
+    height: 21px;
+    background: #C4C4C4;
+    font-family: Roboto;
+    color: #FFFFFF;
+    font-size: 14px;
+    justify-content: center;
+}
+.enviar {
+    width: 537px;
+    height: 33px;
+    background: #C2185B;
+    justify-content: center;
+    display: flex;
+    color: white;
+    font-family: Roboto;
+    font-weight: bold;
+}
+.resumo {
+    width: 464px;
+    height: 448px;
+    margin-top: 90px;
+    display: flex;
+    font-size: 16px;
+    color: #575757;
+}

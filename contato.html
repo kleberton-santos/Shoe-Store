@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/contato.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="index.html">
+            <img src="img/logo.png" alt="Logo" class="img_logo">
+        </div>
+        <ul class="lista_menu">
+            <li>todos os produtos</li>
+            <li>coleções</li>
+            <li>outlet</li>
+        </ul>
+    </header>
+
+    <main class="contato-main">
+        
+            <section class="form-wrapper">
+                <h1>Faça parte do nosso time</h1>
+            <form action="contato.html" method="post" class="contato-form">
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+                <label for="phone">Telefone</label>
+                <input type="tel" name="phone" id="phone">
+                <label for="departamento">Departamentos</label>
+                <select name="departamento" id="departamento" class="departamento">
+                    <option value=""></option>
+                    <option value="rh">RH</option>
+                    <option value="it">TI</option>
+                    <option value="sales">Vendas</option>
+                </select>
+                <h3 class="section-header">Disponibilidade</h3>
+                <div>
+                    <input type="checkbox" name="disponibilidade" id="integral" value="integral">
+                    <label for="integral">Integral(8h)</label>
+                    <input type="checkbox" name="disponibilidade" id="meio" value="meio">
+                    <label for="meio">Meio Periodo(4h)</label>
+                    <input type="checkbox" name="disponibilidade" id="freelancer" value="freelancer">
+                    <label for="freelancer">Freelancer</label>
+                </div>
+                <h3 class="section-header">Qual a melhor forma para entrarmos em contato com você?</h3>
+                <div>
+                    <input type="radio" name="email" id="email">
+                    <label for="email">Email</label>
+                    <input type="radio" name="ligacao" id="ligacao">
+                    <label for="email">Ligacao</label>
+                    <input type="radio" name="whatsapp" id="whatsapp">
+                    <label for="email">Whatsapp</label>
+                </div>
+                <h3 class="mensagem-header">Mensagem</h3>
+                <div class="mensagem">
+                    <textarea name="mensagem" id="mensagem" cols="80" rows="4" class="textoarea"></textarea>
+                </div>
+                
+                <div class="botao">
+                    <h3 class="curriculo">Curriculo</h3>
+                    <label for="upload" class="upload">upload</label>
+                </div>
+                <div class="enviar">
+                    <button type="submit">Enviar</button>
+                </div>
+            </section>
+        </form>
+        <section class="resumo">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br> <br> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br> <br>
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </section>
+    </main>
+
+
+    <footer class="rodape">
+        <div class="rodape_area">
+            <img src="img/logo2.png" alt="">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, quo! Corrupti<br> in aspernatur perferendis, minus similique consequatur culpa distinctio quibusdam aut repudiandae alias necessitatibus ipsa, non saepe vero quidem sequi.</p>
+        </div>
+            <div class="categoria">
+                <h4>Categoria</h4>
+                <ul class="lista_categoria">
+                    <li>Sandalia</li>
+                    <li>Botas</li>
+                    <li>Tenis</li>
+                    <li>Oxford</li>
+                    <li>Coturnos</li>
+                </ul>
+            </div>    
+            <div class="institucional"> 
+                    <h4>Institucional</h4>
+                <ul class="lista_institucional">
+                    <li>Sobre Nos</li>
+                    <li>Perguntas Frequentes</li>
+                    <li>Politica de Privacidade</li>
+                    <li>Rastreamento de Pedidos</li>
+                    <li>Trabalhe Conosco</li>
+                    <li>Contatos</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
